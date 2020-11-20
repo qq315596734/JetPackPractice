@@ -2,6 +2,8 @@ plugins {
     id("com.android.application")
     kotlin("android")
     kotlin("kapt")
+    //kotlin 语言解决findviewbyid 的插件
+    id("kotlin-android-extensions")
 }
 
 android {
