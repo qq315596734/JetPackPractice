@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.xsb.app.lifecycle.LifecycleActivity
+import com.xsb.app.livedata.LiveDataActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -11,9 +12,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         btn_lifecycle.setOnClickListener {
             startActivity(Intent(this, LifecycleActivity::class.java))
         }
+
+        btn_livedata.setOnClickListener {
+            startActivity(Intent(this, LiveDataActivity::class.java))
+        }
+
     }
 }
