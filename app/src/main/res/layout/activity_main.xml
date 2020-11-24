@@ -23,9 +23,20 @@
         android:id="@+id/btn_livedata"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:text="Lifecycle"
+        android:text="livedata"
         android:textColor="#444444"
         app:layout_constraintTop_toBottomOf="@+id/btn_lifecycle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="14dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_viewmodel"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="viewmodel"
+        android:textColor="#444444"
+        app:layout_constraintTop_toBottomOf="@+id/btn_livedata"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginTop="14dp"
         android:layout_marginLeft="14dp"/>

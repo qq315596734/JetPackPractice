@@ -23,6 +23,8 @@
 
         <activity android:name=".livedata.LiveData2Activity"/>
 
+        <activity android:name=".viewmodel.ViewModelActivity"/>
+
 
     </application>
 

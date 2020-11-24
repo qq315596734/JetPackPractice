@@ -40,4 +40,6 @@ dependencies {
     implementation (LibConfig.androidx_core_ktx)
     implementation (LibConfig.androidx_constraintlayout)
     implementation (LibConfig.androidx_appcompat)
+    implementation (LibConfig.jetpack_livedata)
+    implementation (LibConfig.jetpack_viewmodel)
 }

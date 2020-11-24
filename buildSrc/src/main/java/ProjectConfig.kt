@@ -5,6 +5,7 @@
 object ProjectConfig {
     @JvmStatic val gradelVersion = "4.1.0"
     @JvmStatic val kotlinVersion = "1.4.10"
+    @JvmStatic val lifecycle_version = "2.2.0"
 
     @JvmStatic val compileSdkVersion = 30
     @JvmStatic val buildToolVersion = "30.0.2"
